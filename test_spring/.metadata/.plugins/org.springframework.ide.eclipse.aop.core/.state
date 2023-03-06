@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
-<aop-project name="test_spring_proj"/>
+<aop-project name="spring_aop_ex01"/>
 </aop-reference-model>

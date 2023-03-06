@@ -1,3 +1,7 @@
 INDEX VERSION 1.131
+C:\Users\user\Desktop\backend_work\test_spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2784592884.index
+\spring_aop_ex01\src\main\java
 C:\Users\user\Desktop\Spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\404935984.index
 \test_spring_proj\src\main\java
+C:\Users\user\Desktop\backend_work\test_spring\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3010383744.index
+\spring_aop_ex01\src\main\java
