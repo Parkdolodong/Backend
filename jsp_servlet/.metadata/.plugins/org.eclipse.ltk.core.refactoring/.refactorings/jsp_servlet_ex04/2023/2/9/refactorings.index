@@ -1,0 +1,27 @@
+1677542978732	Move 'views' to 'WEB-INF'
+1677542980772	Move 'saram' to 'WEB-INF'
+1677543093813	Move 'index.jsp' to 'webapp'
+1677543260692	Move 'saram' to 'views'
+1677543841716	Delete element
+1677543885923	Delete element
+1677543924409	Delete element
+1677543973221	Delete element
+1677544036011	Delete element
+1677544156642	Delete element
+1677544210769	Delete element
+1677544222808	Delete element
+1677544291863	Delete element
+1677544317356	Delete element
+1677544409480	Delete element
+1677545272909	Rename type 'SaramDAO'
+1677545287194	Rename type 'SaramDTO'
+1677548427493	Extract interface 'Controller'
+1677548446474	Delete element
+1677548466830	Extract interface 'Controller'
+1677548513283	Delete element
+1677548526855	Extract interface 'Controller'
+1677566459606	Copy package
+1677566475665	Copy package
+1677566479801	Delete element
+1677566485803	Delete element
+1677566707164	Rename compilation unit 'jdbcUtil.java'

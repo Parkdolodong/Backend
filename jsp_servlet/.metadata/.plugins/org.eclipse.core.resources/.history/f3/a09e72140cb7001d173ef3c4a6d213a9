@@ -1,0 +1,26 @@
+package org.comstudy.myweb;
+
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.Date;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.comstudy.myweb.board.model.BoardDTO;
+import org.comstudy.myweb.saram.model.SaramDTO;
+
+public class DispatcherServlet extends HttpServlet {
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		System.out.println("doGet() - DispatcherServlet 요청");
+		
+		String viewName = new BoardController().process(req, resp);
+		
+		RequestDispatcher view = req.getRequestDispatcher(viewName);
+		view.forward(req, resp);
+	}
+}

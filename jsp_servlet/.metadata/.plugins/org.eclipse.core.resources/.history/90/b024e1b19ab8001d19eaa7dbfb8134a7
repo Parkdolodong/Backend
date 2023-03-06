@@ -1,0 +1,48 @@
+package org.comstudy.myweb.dbcp;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+public class JdbcUtil {
+	
+	public static Connection getConnection() {
+		// JNDI를 이용한 커넥션 풀 사용
+		Connection conn = null;
+		
+		return conn;
+	}
+	
+	public static void close(Connection obj) {
+		try {
+			if(obj != null) obj.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void close(ResultSet obj) {
+		try {
+			if(obj != null) obj.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void close(Statement obj) {
+		try {
+			if(obj != null) obj.close();
+		} catch (SQLException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	// static 멤버 = class 멤버 : 클래스 외부에서 객체 생성 없이 클래명으로 접근 가능.
+	public static void close(Connection conn, Statement stmt, ResultSet rs) {
+		close(rs);
+		close(stmt);
+		close(conn);
+	}
+}

@@ -1,0 +1,8 @@
+package org.comstudy.myweb.dbcp;
+
+public class JdbcUtil {
+	public static void main(String[] args) {
+		// JDBC 연동 - 커넥션 드라이버 찾기
+		Class.forName("")
+	}
+}

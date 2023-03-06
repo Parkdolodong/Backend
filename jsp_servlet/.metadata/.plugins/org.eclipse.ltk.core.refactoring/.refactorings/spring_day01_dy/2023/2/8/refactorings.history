@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;spring_day01_dy&apos;&#x0D;&#x0A;- Original project: &apos;spring_day01_dy&apos;&#x0D;&#x0A;- Original element: &apos;spring_day01_dy/src/org.my.myapp&apos;&#x0D;&#x0A;- Delete subpackages" description="Delete element" element1="/src&lt;org.my.myapp.saram.model" element2="/src&lt;org.my.myapp.saram" element3="/src&lt;org.my.myapp" element4="/src&lt;org.my" element5="/src&lt;org" elements="5" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1677215528112" subPackages="true" version="1.0"/>
+</session>
