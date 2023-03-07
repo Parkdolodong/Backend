@@ -1,6 +1,6 @@
 server:
   port: 6897
-  
+
 spring:
   mvc:
     view:

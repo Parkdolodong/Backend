@@ -4,12 +4,12 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>home.jsp</title>
+<title>Insert title here</title>
 </head>
 <body>
 
 <h1>Home page</h1>
-<p>Message: ${msg}</p>
+<p>${msg }</p>
 
 </body>
 </html>
